@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Test::App" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Test::IApplication" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="0.75" Y="1.062" />
+        <Point X="0.75" Y="1.633" />
+        <Point X="0.812" Y="1.633" />
+        <Point X="0.812" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="Test::IControl" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.875" Y="1.062" />
+        <Point X="2.875" Y="1.396" />
+        <Point X="1.812" Y="1.396" />
+        <Point X="1.812" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAIAIAAAAQAAACAAAAAIgAAAAAgAAI=</HashCode>
+      <FileName>App.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::AutoEvent" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Test::IEvent" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.938" Y="3.312" />
+        <Point X="6.938" Y="3.671" />
+        <Point X="7" Y="3.671" />
+        <Point X="7" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::Button" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::DialogFile" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DialogFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::WinApiException" Collapsed="true">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAgAAAIAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinApiException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::FactoryHash" Collapsed="true">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryHash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::FileHash" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAIAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>FileHash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::FileInfo" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAgIBAAAAAAQQgAAAAAAAAQEAAAAAAAAE=</HashCode>
+      <FileName>FileInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::FileScan" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Test::IScaner" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.312" />
+        <Point X="1.25" Y="3.51" />
+        <Point X="1.812" Y="3.51" />
+        <Point X="1.812" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="Test::IParamToThread" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="3.312" />
+        <Point X="3.25" Y="3.51" />
+        <Point X="2.75" Y="3.51" />
+        <Point X="2.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAUEAAAACAgCgAAAgAAAAAQQIACAAAEAAII=</HashCode>
+      <FileName>FileScan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::HashMD5" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAAAAAAACAECAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>HashMD5.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IApplication" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAI=</HashCode>
+      <FileName>IApplication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IControl" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAAAAAAAAIgIAAIAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>IControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IEvent" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAAACAAAAAAAAAQAAAQAAAAgBACAAAA=</HashCode>
+      <FileName>IEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IHash" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IParamToThread" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IParamToThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IScaner" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAEAAAAAABI=</HashCode>
+      <FileName>IScaner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::TextBox" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Test::IControl" FixedFromPoint="true">
+      <Path>
+        <Point X="3.625" Y="1.062" />
+        <Point X="3.625" Y="1.375" />
+        <Point X="5.25" Y="1.375" />
+        <Point X="5.25" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::Thread" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQACAAAAAAAEAAAEQAQAAAQAABAgAQCAAAI=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::IHandle" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAACAAAAAAAAAAAAAAQAQAAgABAAAAA=</HashCode>
+      <FileName>WrapHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::HandleThread" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>WrapHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::HandleWinCryptoProvider" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAIAEAAAQAAAAAAACAA=</HashCode>
+      <FileName>WrapHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::HandleWinCryptoHash" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>WrapHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test::CriticalSection" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAAAAAAAAAAAAAAAAAAEEAAAAABAAAAAAAAA=</HashCode>
+      <FileName>CriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Test::ParamToScan" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParamToScan.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Test::__unnamed_enum_0121_1" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
